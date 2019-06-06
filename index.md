@@ -48,7 +48,7 @@ Para fazer tudo isso, teremos que aprender um pouco de programação.
 > pode usar qualquer interpretador Python mencionado no [Setup](setup/).
 >
 > Os comandos dessa aula são em **Python 3**.
-{> .prereq}
+{: .prereq}
 
 <!-- > ## Prerequisites
 >
