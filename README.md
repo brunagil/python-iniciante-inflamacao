@@ -1,4 +1,4 @@
-loops# Programando com Python
+# Programando com Python
 Esse repositório é uma tradução livre [do material oficial](https://github.com/swcarpentry/python-novice-inflammation).
 A tradução ainda está nos estágios iniciais e contribuições são bem-vindas.
 
@@ -18,8 +18,7 @@ O exemplo usado nessa aula analisa um conjunto de 12 arquivos com dados simulato
 coletados de um estudo de um novo tratamento para artrite. É demonstrada uma forma de melhorar a análise,
 automatizando-a com funções invés de repetir os passos da análise manualmente.
 
-\*\* O preview dessa tradução, antes da publicação, está disponível em:
-<https://vinisalazar.github.io/python-iniciante-inflamacao>
+\*\* O preview dessa tradução, antes da publicação, está disponível em [aqui.][index]
 
 Essa aula também está disponível em [R][R] e [MATLAB][MATLAB] (somente em inglês).
 
@@ -95,6 +94,7 @@ To cite this lesson, please consult with [CITATION](CITATION)
 [slack_channel_url]: https://swcarpentry.slack.com/messages/C9Y0L6MF0
 [travis_svg]: https://travis-ci.org/swcarpentry/python-novice-inflammation.svg?branch=gh-pages
 [travis_url]: https://travis-ci.org/swcarpentry/python-novice-inflammation
+[index]: http://vinisalazar.github.io/python-iniciante-inflamacao/
 [episode01]: http://vinisalazar.github.io/python-iniciante-inflamacao/01-numpy/index.html
 [episode02]: http://vinisalazar.github.io/python-iniciante-inflamacao/02-loop/index.html
 [episode03]: http://vinisalazar.github.io/python-iniciante-inflamacao/03-lists/index.html
