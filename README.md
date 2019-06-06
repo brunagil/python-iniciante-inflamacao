@@ -1,26 +1,25 @@
-# Programming with Python
+# Programando com Python
+Esse repositório é uma tradução livre [do material oficial](https://github.com/swcarpentry/python-novice-inflammation).
+A tradução ainda está nos estágios iniciais e contribuições são bem-vindas.
 
 [![GitHub release][shields_release]][swc_py_releases]
 [![Create a Slack Account with us][create_slack_svg]][slack_heroku_invite]
 [![Slack Status][slack_channel_status]][slack_channel_url]
 
-An introduction to Python for non-programmers using inflammation data.
+Uma introdução ao Python para não-programadores usando dados de inflamação.
 
-## About the Lesson
+## Sobre a aula
 
-This lesson teaches novice programmers to write modular code to perform data analysis
-using Python. The emphasis, however, is on teaching language-agnostic principles of
-programming such as automation with loops and encapsulation with functions,
-see [Best Practices for Scientific Computing][best-practices] and
-[Good enough practices in scientific computing][good-practices] to learn more.
+Essa aula ensina programadores iniciates a escrever código modular para executar análise
+de dados usando Python. A ênfase, no entanto, em ensinar príncipios de programação indenpendente
+de linguagem, como automação com laços e encapsulamento com função, vide [Melhores práticas para computação científica][best-practices] e [Práticas suficientes em computação científica][good-practices] para ler mais.
 
-The example used in this lesson analyses a set of 12 files with simulated inflammation
-data collected from a trial for a new treatment for arthritis. Learners are shown
-how it is better to automate analysis using functions instead of repeating analysis
-steps manually.
+O exemplo usado nessa aula analisa um conjunto de 12 arquivos com dados simulatos de inflamação,
+coletados de um estudo de um novo tratamento para artrite. É demonstrada uma forma de melhorar a análise,
+automatizando-a com funções invés de repetir os passos da análise manualmente.
 
-The rendered version of the lesson is available at:
-<https://swcarpentry.github.io/python-novice-inflammation/>.
+\*\* O preview dessa tradução, antes da publicação, está disponível em:
+<https://vinisalazar.github.io/python-iniciante-inflamacao>
 
 This lesson is also available in [R][R] and [MATLAB][MATLAB].
 
