@@ -3,39 +3,40 @@ title: Analisando Dados de Pacientes
 teaching: 60
 exercises: 30
 questions:
-- "How can I process tabular data files in Python?"
+- "Como posso processar arquivos de tabela no Python?"
 objectives:
-- "Explain what a library is and what libraries are used for."
-- "Import a Python library and use the functions it contains."
-- "Read tabular data from a file into a program."
-- "Assign values to variables."
+- "Explicar o que é uma biblioteca e para o que são usadas."
+- "Importar uma biblioteca Python e usar as funções que ela contém."
+- "Ler dados tabulares de um arquivo em um programa."
+- "Declarar valores para variáveis."
 - "Select individual values and subsections from data."
-- "Perform operations on arrays of data."
-- "Plot simple graphs from data."
+- "Selecionar valores individuais e subseções de dados."
+- "Executar operações em arranjos de dados."
+- "Plotar figuras simples com dados."
 keypoints:
-- "Import a library into a program using `import libraryname`."
-- "Use the `numpy` library to work with arrays in Python."
-- "Use `variable = value` to assign a value to a variable in order to record it in memory."
-- "Variables are created on demand whenever a value is assigned to them."
-- "Use `print(something)` to display the value of `something`."
-- "The expression `array.shape` gives the shape of an array."
-- "Use `array[x, y]` to select a single element from a 2D array."
-- "Array indices start at 0, not 1."
-- "Use `low:high` to specify a `slice` that includes the indices from `low` to `high-1`."
-- "All the indexing and slicing that works on arrays also works on strings."
-- "Use `# some kind of explanation` to add comments to programs."
-- "Use `numpy.mean(array)`, `numpy.max(array)`, and `numpy.min(array)` to calculate simple statistics."
-- "Use `numpy.mean(array, axis=0)` or `numpy.mean(array, axis=1)` to calculate statistics across the specified axis."
-- "Use the `pyplot` library from `matplotlib` for creating simple visualizations."
+- "Importar a biblioteca em um programa usando `import biblioteca`."
+- "Usar a biblioteca `numpy` para trabalhar com arranjos em Python."
+- "Usar `variavel = valor` para declarar um valor à uma variável e gravá-lo em memória."
+- "Variáveis são criadas sob demanda sempre que um valor é declarado à elas."
+- "Use `print(algo)` para mostrar o valor de `algo`."
+- "A expressão `array.shape` retorna o formato de um arranjo."
+- "Use `array[x, y]` para selecionar um único elemento em um arranjo 2D."
+- "Índices de arranjo começam no 0, e não 1."
+- "Use `baixo:alto` para especificar uma `fatia` que inclui os índices de `baixo` até `alto-1`."
+- "Todos os índices e fatias que funcionam em arranjos também funcionam em strings."
+- "Use `# algum tipo de explicação` para adicionar comentários a programas.."
+- "Use `numpy.mean(array)`, `numpy.max(array)`, e `numpy.min(array)` para calcular estatísticas simples."
+- "Use `numpy.mean(array, axis=0)` ou `numpy.mean(array, axis=1)` para calcular estatísticas entre os eixos especificados."
+- "Use o pacote `pyplot` da biblioteca `matplotlib` para criar visualizações simples."
 ---
 
-In this episode we will learn how to work with arthritis inflammation datasets in Python. However,
-before we discuss how to deal with many data points, let's learn how to work with
-single data values.
+Nesse episódio vamos discutir como trabalhar com conjuntos de dados de inflamação de artrite. No entanto, 
+antes de discutir como lidar com tantos pontos de dados, 
+vamos primeiro trabalhar com valores simples de dados.
 
-## Variables
+## Variáveis
 
-Any Python interpreter can be used as a calculator:
+Qualquer interpretrador Python pode ser usado como calculadora:
 ~~~
 3 + 5 * 4
 ~~~
@@ -45,57 +46,55 @@ Any Python interpreter can be used as a calculator:
 ~~~
 {: .output}
 
-This is great but not very interesting.
-To do anything useful with data, we need to assign its value to a _variable_.
-In Python, we can [assign]({{ page.root }}/reference/#assign) a value to a
-[variable]({{ page.root }}/reference/#variable), using the equals sign `=`.
-For example, to assign value `60` to a variable `weight_kg`, we would execute:
+Isso é ótimo mas não é muito interessante.
+Para fazer qualquer coisa útil com dados, precisamos botar seu valor em uma _variável_.
+No Python, podemos [declarar]({{ page.root }}/reference/#assign)  um valor para uma 
+[variável]({{ page.root }}/reference/#variable), usando os valores de igual `=`.
+Por exemplo, ao declarar o valor `60` para uma variável `peso_kg`, vamos executar:
 
 ~~~
-weight_kg = 60
+peso_kg = 60
 ~~~
 {: .language-python}
 
-From now on, whenever we use `weight_kg`, Python will substitute the value we assigned to
-it. In essence, **a variable is just a name for a value**.
+De agora em diante, sempre que usamos `peso_kg`, o Python vai substituir pelo valor declarado
+isso. Em essência, **uma variável é só um nome para um valor**.
 
-In Python, variable names:
+No Python, nomes de variáveis
 
- - can include letters, digits, and underscores
- - cannot start with a digit
- - are [case sensitive]({{ page.root }}/reference/#case-sensitive).
+ - podem ter letras, dígitos e sublinhados.
+ - não podem começar com um dígito
+ - são [sensíveis a caixa]({{ page.root }}/reference/#case-sensitive).
 
-This means that, for example:
- - `weight0` is a valid variable name, whereas `0weight` is not
- - `weight` and `Weight` are different variables
+Isso significa, por exemplo:
+ - `peso0` é um nome válido de variável, onde `0peso` não é
+ - `peso` e `Peso` são variáveis diferentes
 
-## Types of data
-Python knows various types of data. Three common ones are:
+## Tipos de dados
+Python conhece vários tipos de dados. Três comuns são:
 
-* integer numbers
-* floating point numbers, and
+* números inteiros
+* números de ponto flutuante, e
 * strings.
 
-In the example above, variable `weight_kg` has an integer value of `60`.
-To create a variable with a floating point value, we can execute:
-
+No exemplo acima, a variável `peso_kg` tem o valor de um inteiro de `60`.
+Para criar uma variável com um número de ponto flutuante, podemos executar:
 ~~~
-weight_kg = 60.0
-~~~
-{: .language-python}
-
-And to create a string we simply have to add single or double quotes around some text, for example:
-
-~~~
-weight_kg_text = 'weight in kilograms:'
+peso_kg = 60.0
 ~~~
 {: .language-python}
 
-## Using Variables in Python
-To display the value of a variable to the screen in Python, we can use the `print` function:
+E para criar uma string precisamos simplesmente adicionar aspas simples ou duplas à um texto, como:
+~~~
+peso_kg_texto = 'peso em kilogramas:'
+~~~
+{: .language-python}
+
+## Usando Variáveis no Python
+Para mostrar o valor de uma variável em uma tela no Python, podemos usar a função `print`:
 
 ~~~
-print(weight_kg)
+print(peso_kg)
 ~~~
 {: .language-python}
 
