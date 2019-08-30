@@ -1,5 +1,5 @@
 ---
-title: Storing Multiple Values in Lists
+title: Armazenando Muitos Valores em Listas
 teaching: 30
 exercises: 0
 questions:

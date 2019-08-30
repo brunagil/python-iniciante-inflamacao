@@ -1,5 +1,5 @@
 ---
-title: Making Choices
+title: Fazendo Escolhas
 teaching: 30
 exercises: 0
 questions:

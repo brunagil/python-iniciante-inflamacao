@@ -1,5 +1,5 @@
 ---
-title: Analyzing Patient Data
+title: Analisando Dados de Pacientes
 teaching: 60
 exercises: 30
 questions:
