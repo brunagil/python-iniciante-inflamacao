@@ -1,32 +1,30 @@
-# Programming with Python
+# Programando com Python
+Esse repositório é uma tradução livre [do material oficial](https://github.com/swcarpentry/python-novice-inflammation).
+A tradução ainda está nos estágios iniciais e contribuições são bem-vindas.
 
 [![GitHub release][shields_release]][swc_py_releases]
 [![Create a Slack Account with us][create_slack_svg]][slack_heroku_invite]
 [![Slack Status][slack_channel_status]][slack_channel_url]
 
-An introduction to Python for non-programmers using inflammation data.
+Uma introdução ao Python para não-programadores usando dados de inflamação.
 
-## About the Lesson
+## Sobre a aula
 
-This lesson teaches novice programmers to write modular code to perform data analysis
-using Python. The emphasis, however, is on teaching language-agnostic principles of
-programming such as automation with loops and encapsulation with functions,
-see [Best Practices for Scientific Computing][best-practices] and
-[Good enough practices in scientific computing][good-practices] to learn more.
+Essa aula ensina programadores iniciates a escrever código modular para executar análise
+de dados usando Python. A ênfase, no entanto, em ensinar príncipios de programação indenpendente
+de linguagem, como automação com loops e encapsulamento com funções, vide [Melhores práticas para computação científica][best-practices] e [Práticas suficientes em computação científica][good-practices] para ler mais.
 
-The example used in this lesson analyses a set of 12 files with simulated inflammation
-data collected from a trial for a new treatment for arthritis. Learners are shown
-how it is better to automate analysis using functions instead of repeating analysis
-steps manually.
+O exemplo usado nessa aula analisa um conjunto de 12 arquivos com dados simulatos de inflamação,
+coletados de um estudo de um novo tratamento para artrite. É demonstrada uma forma de melhorar a análise,
+automatizando-a com funções invés de repetir os passos da análise manualmente.
 
-The rendered version of the lesson is available at:
-<https://swcarpentry.github.io/python-novice-inflammation/>.
+\*\* O preview dessa tradução, antes da publicação, está disponível em [aqui.][index]
 
-This lesson is also available in [R][R] and [MATLAB][MATLAB].
+Essa aula também está disponível em [R][R] e [MATLAB][MATLAB] (somente em inglês).
 
-## Episodes
+## Episódios
 
-| # |  Episode | Time | Question(s) |
+| # |  Episódio | Tempo | Pergunta(s) |
 |--:|:---------|:----:|:------------|
 | 1 | [Analisando Dados de Pacientes][episode01] | 90 | How can I process tabular data files in Python? |
 | 2 | [Repetindo Ações com Laços][episode02] | 30 | How can I do the same operations on many different values? |
@@ -39,29 +37,33 @@ This lesson is also available in [R][R] and [MATLAB][MATLAB].
 | 9 | [Debuggando][episode09] | 30 | How can I debug my program? |
 |10 | [Programas de Linha de Comando][episode10] | 30 | How can I write Python programs that will work like Unix command-line tools? |
 
-
-## Contributing
+## Contribuindo
 [![Travis Build Status][travis_svg]][travis_url]
 
-We welcome all contributions to improve the lesson!
-Maintainers will do their best to help you if you have any questions, concerns,
-or experience any difficulties along the way.
+Nós apreciamos todas as contribuições para melhorar a aula!
+Responsáveis farão seu melhor para ajudar se você tiver qualquer pergunta,
+preocupação, ou sentir alguma dificuldade com isso.
 
-We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md)
-and have a look at the [more detailed guidelines][lesson-example] on proper formatting,
-ways to render the lesson locally, and even how to write new episodes!
+Gostaríamos que você se familiarizasse com nosso [Guia de Contribuição](CONTRIBUTING.md)
+e deem uma olhada nas [orientações mais detalhadas][lesson-example] para formatação adequada,
+formas de renderizar a aula localmente, e até como escrever novos episódios!
 
-## Maintainers
+**Nota do tradutor**: Essa é uma tradução livre do material original, porém as regras de contribuição
+são as mesmas.
 
-Lesson maintainers are [Trevor Bekolay][trevor_bekolay], [Maxim Belkin][maxim_belkin],
+## Responsáveis
+
+Responsáveis pela aula são [Trevor Bekolay][trevor_bekolay], [Maxim Belkin][maxim_belkin],
 [Anne Fouilloux][anne_fouilloux], [Valentina Staneva][valentina_staneva],
-[Mike Trizna][mike_trizna], and [creator][swc_history] of Software Carpentry:
+[Mike Trizna][mike_trizna], e o [criador][swc_history] of Software Carpentry:
 [Greg Wilson][greg_wilson]
 
-## Authors
-A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
+Responsável pela tradução para português é [Vini Salazar][vini_salazar].
 
-## License
+## Autores
+Uma lista de contribuidores para a aula pode ser encontrada em [AUTHORS](AUTHORS)
+
+## Licença
 Instructional material from this lesson is made available under the Creative
 Commons Attribution (CC BY 4.0) license. Except where otherwise noted, example
 programs and software included as part of this lesson are made available under
@@ -77,6 +79,7 @@ To cite this lesson, please consult with [CITATION](CITATION)
 [trevor_bekolay]: http://software-carpentry.org/team/#bekolay_trevor
 [valentina_staneva]: http://software-carpentry.org/team/#staneva_valentina
 [greg_wilson]: https://github.com/gvwilson
+[vini_salazar]: https://github.com/vinisalazar
 [swc_history]: https://software-carpentry.org/scf/history/
 [best-practices]: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 [good-practices]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
@@ -90,13 +93,14 @@ To cite this lesson, please consult with [CITATION](CITATION)
 [slack_channel_url]: https://swcarpentry.slack.com/messages/C9Y0L6MF0
 [travis_svg]: https://travis-ci.org/swcarpentry/python-novice-inflammation.svg?branch=gh-pages
 [travis_url]: https://travis-ci.org/swcarpentry/python-novice-inflammation
-[episode01]: http://swcarpentry.github.io/python-novice-inflammation/01-numpy/index.html
-[episode02]: http://swcarpentry.github.io/python-novice-inflammation/02-loop/index.html
-[episode03]: http://swcarpentry.github.io/python-novice-inflammation/03-lists/index.html
-[episode04]: http://swcarpentry.github.io/python-novice-inflammation/04-files/index.html
-[episode05]: http://swcarpentry.github.io/python-novice-inflammation/05-cond/index.html
-[episode06]: http://swcarpentry.github.io/python-novice-inflammation/06-func/index.html
-[episode07]: http://swcarpentry.github.io/python-novice-inflammation/07-errors/index.html
-[episode08]: http://swcarpentry.github.io/python-novice-inflammation/08-defensive/index.html
-[episode09]: http://swcarpentry.github.io/python-novice-inflammation/09-debugging/index.html
-[episode10]: http://swcarpentry.github.io/python-novice-inflammation/10-cmdline/index.html
+[index]: http://vinisalazar.github.io/python-iniciante-inflamacao/
+[episode01]: http://vinisalazar.github.io/python-iniciante-inflamacao/01-numpy/index.html
+[episode02]: http://vinisalazar.github.io/python-iniciante-inflamacao/02-loop/index.html
+[episode03]: http://vinisalazar.github.io/python-iniciante-inflamacao/03-lists/index.html
+[episode04]: http://vinisalazar.github.io/python-iniciante-inflamacao/04-files/index.html
+[episode05]: http://vinisalazar.github.io/python-iniciante-inflamacao/05-cond/index.html
+[episode06]: http://vinisalazar.github.io/python-iniciante-inflamacao/06-func/index.html
+[episode07]: http://vinisalazar.github.io/python-iniciante-inflamacao/07-errors/index.html
+[episode08]: http://vinisalazar.github.io/python-iniciante-inflamacao/08-defensive/index.html
+[episode09]: http://vinisalazar.github.io/python-iniciante-inflamacao/09-debugging/index.html
+[episode10]: http://vinisalazar.github.io/python-iniciante-inflamacao/10-cmdline/index.html
