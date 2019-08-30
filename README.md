@@ -26,17 +26,16 @@ Essa aula também está disponível em [R][R] e [MATLAB][MATLAB] (somente em ing
 
 | # |  Episódio | Tempo | Pergunta(s) |
 |--:|:---------|:----:|:------------|
-| 1 | [Analisando Dados de Pacientes][episode01] | 90 | Como eu posso processar arquivos de dados tabulares em Python? |
-| 2 | [Repetindo Ações com Loops][episode02] | 30 | Como eu posso fazer as mesmas operações em muitos valores diferentes? |
-| 3 | [Armazenando Valores Múltiplos em Listas][episode03] | 30 | Como eu posso armazenar muitos valores juntos? |
-| 4 | [Analisando Dados de Múltiplos Arquivos][episode04] | 20 | Como eu posso fazer as mesmas operações em muitos arquivos diferentes? |
-| 5 | [Fazendo Escolhas][episode05] | 30 | Como meus programas podem fazer coisas diferentes baseados em valores de dados? |
-| 6 | [Criando funções][episode06] | 30 | Como eu posso definir novas funções?<br>Qual é a diferença entre definir e chamar uma função?<br>O que acontece depois que eu chamo uma função? |
-| 7 | [Erros e Exceções][episode07] | 30 | Como o Python reporta erros?<br>Como eu posso lidar com erros em programas Python? |
-| 8 | [Programação Defensiva][episode08] | 30 | Como eu posso tornar meus programas mais confiáveis? |
-| 9 | [Debugging][episode09] | 30 | Como eu posso debuggar meu programa? |
-|10 | [Programas de linha de comando][episode10] | 30 | Como eu posso contribuir para escrever programas Python que funcionem como linhas de comando Unix? |
-
+| 1 | [Analisando Dados de Pacientes][episode01] | 90 | How can I process tabular data files in Python? |
+| 2 | [Repetindo Ações com Laços][episode02] | 30 | How can I do the same operations on many different values? |
+| 3 | [Armazenando Muitos Valores em Listas][episode03] | 30 | How can I store many values together? |
+| 4 | [Analisando Dados em Muitos Arquivos][episode04] | 20 | How can I do the same operations on many different files? |
+| 5 | [Fazendo Escolhas][episode05] | 30 | How can my programs do different things based on data values? |
+| 6 | [Criando Funções][episode06] | 30 | How can I define new functions?<br>What’s the difference between defining and calling a function?<br>What happens when I call a function? |
+| 7 | [Erros e Exceções][episode07] | 30 | How does Python report errors?<br>How can I handle errors in Python programs? |
+| 8 | [Programação Defensiva][episode08] | 30 | How can I make my programs more reliable? |
+| 9 | [Debuggando][episode09] | 30 | How can I debug my program? |
+|10 | [Programas de Linha de Comando][episode10] | 30 | How can I write Python programs that will work like Unix command-line tools? |
 
 ## Contribuindo
 [![Travis Build Status][travis_svg]][travis_url]

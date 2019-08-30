@@ -1,5 +1,5 @@
 ---
-title: Repeating Actions with Loops
+title: Repetindo Ações com Laços
 teaching: 30
 exercises: 0
 questions:

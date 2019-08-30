@@ -1,5 +1,5 @@
 ---
-title: Errors and Exceptions
+title: Erros e Exceções
 teaching: 30
 exercises: 0
 questions:
